@@ -1,0 +1,297 @@
+body{
+    padding: 0rem 0px;
+    
+     background-color: #96BAFF;
+    background-color: #DEEDF0;
+}
+
+     /* navbar css start */
+
+.container-fluid{
+    padding: 0 2rem;
+    
+}
+.navbar{
+    background-color: #E4BAD4;
+    margin-bottom: 10px;
+}
+
+#mainNav .navbar-brand{
+    color: #ea1c2c;
+    font-size: 1.5em;
+    font-weight: 150;
+    
+}
+#mainNav .nav-link{
+    color: white;
+    font-weight: 150;
+    font-size: 1.3em;
+}
+#mainBody{
+  margin: 0px 10px 100px 50px;
+  
+}
+
+.navbar .scrolled{
+    background-color: rgb(180, 180, 34);
+    transition: 2000ms;
+}
+
+#mainNav .nav-link:hover{
+    color: crimson;
+
+}
+/* navbar css end */
+
+/* fixed part css carousel start */
+#carousel{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.slideshowContainer{
+    /* margin: auto; */
+    margin-right: 10%;
+    
+    position: relative;
+   
+}
+.myslides img{
+    vertical-align: middle;
+    border-radius: 8px 3px 3px 3px;
+}
+.prev,.next{
+    position: absolute;
+    text-decoration: none;
+    margin-top: -30%;
+    font-size: 1.5em;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.6 ease;
+}
+.prev:first-child,.next:first-child{
+    margin-top: -60%;
+    font-size: 2em;
+}
+.next{
+    right: 15%;
+    border-radius: 3px 0px 0px 3px ;
+}
+.prev:hover,.next:hover{
+    opacity: 1;
+    color: white;
+}
+.text{
+    color: white;
+    width: 85%;
+    font-size: 60%;
+    text-align: center;
+    margin-top: -7%;
+    
+}
+.numberText{
+    margin-bottom: -15px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    padding: 8px 12px;
+}
+.carouselbox{
+    margin-bottom: 5em;
+}
+.borderExp{
+    display: flex;
+    background-color: #E4BAD4;
+    width: 80%;
+    height: .1px;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    margin: -50px auto 50px auto;
+
+}
+/* fixed part  caroisel css end*/
+
+.lead{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #47597E;
+}
+.col-5 .lead{
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+.trending{
+    color: #e24653;
+    font-weight:normal;
+}
+.blockbuster{
+
+border-top: 1px solid #91a1a3;
+font-size: 1.5rem;
+font-weight: 100;
+padding-top: 10px;
+
+}
+
+/* javascript based css  start */
+.movieContent{
+    
+    display: inline-block;
+    margin: 10px 5px 50px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #39A2DB;
+    box-shadow: -0px -3px  2px 0.2px rgba(0, 0, 255, .2);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0px -10px -5px 0px;
+    transition: 300ms;
+}
+.movieImage{
+    
+    display: flex;
+    width: 80%;
+    height:80%;
+    margin: 5px -45px 10px 20px;
+    transition: 100ms;
+   
+}
+.movieTitle{
+    margin-left: 20px;
+    margin-bottom: -30px;
+    color: #571414;
+    text-decoration: none;
+}
+
+
+.movieImage:hover{
+     
+     width: 80.5%;
+   
+   
+}
+.movieContent:hover{
+    background-color: #b3d3e4;
+    text-decoration:underline;
+}
+/* newMovie slides start */
+#newmovieslide1{
+    margin: 20px 30px 100px 20px;
+}
+#newmovieslide2{
+    margin: 20px 30px 100px 20px;
+}
+.title{
+    margin-left: 4%;
+    font-size: 1.3em;
+    color: #293250;
+    /* font-weight: 500; */
+    font-family: 'Quicksand', sans-serif;
+}
+#mainTitle{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left:7% ;
+}
+.searchResult{
+    font-size: 1.2em;
+    color: 	rgb(12, 119, 12);
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 300;
+}
+.title img{
+    width: 35px;
+    height: 35px;
+}
+/* newMovie slides end */
+
+/* javascript based css end */
+@media(max-width:640px){
+    #searchBar{
+        width: 200px;
+    }
+    .movieImage{
+    
+        margin-left: 10px;
+        width: 100px;
+        height: 120px;
+        margin: 5px;
+        padding: 1px;
+      
+    }
+    .movieImage:hover{
+     
+        width:100px;
+        height: 120px;
+   }
+   .movieContent{
+    
+    display: inline-block;
+    margin: 9px ;
+    
+    border: 1px solid #39A2DB;
+    box-shadow: -0px -3px  2px 0.2px rgba(0, 0, 255, .2);
+    border-radius: 5px;
+    
+    padding: 5px 1px 3px 1px;
+    transition: 300ms;
+    }
+   #newmovieslide2{
+    display: none;
+   }
+   .two{
+    display: none;
+    }
+    #mainBody{
+        margin: 0px 5px 50px 30px;
+    }
+    #newmovieslide1{
+        margin: 0px 5px 50px 30px;
+    }
+    .slideshowContainer{
+        margin-left: 20px;
+    }
+}
+
+
+/* footer css start */
+footer{
+    background-color: rgb(71, 70, 70);
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding:  auto 50px auto ; */
+}
+footer a{
+    margin: 10px;
+    
+}
+footer svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+    opacity: 0.5;
+}
+footer .credit{
+    font-size: 1.2em;
+    color: white;
+    opacity: 0.5;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.credit:hover,footer svg:hover{
+    opacity: 0.7;
+}
+.credit img{
+   
+    height:18px ;
+    width: 18px;
+    color: white;
+}
+/* footer css end */
+
